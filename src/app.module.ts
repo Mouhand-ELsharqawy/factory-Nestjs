@@ -14,7 +14,7 @@ import { customerModule } from './customers/customer.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://mohand800001:u7RRxaBSjh1bDjaG@cluster0.5gesuqe.mongodb.net/crud'),
+    MongooseModule.forRoot(''),
     WorkerModule,
     WarehouseModule,
     VisitorModule,
